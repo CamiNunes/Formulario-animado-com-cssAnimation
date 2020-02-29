@@ -114,3 +114,16 @@ form .btn-login{
     transform: translateX(0%);
   }
 }
+
+.form-hide{
+  animation: down 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes down{
+  from{
+    transform: translateY(0);
+  }to{
+    transform: translateY(100vh);
+  }
+}
